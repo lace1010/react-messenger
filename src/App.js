@@ -70,7 +70,7 @@ function App() {
 
   // set username
   useEffect(() => {
-    let username = prompt("Please give us your username");
+    let username = prompt("What is your name?");
     username ? setUsername(username) : setUsername("Unknown User");
   }, []);
 
